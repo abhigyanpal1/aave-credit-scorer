@@ -2,34 +2,34 @@
 
 ![Credit Score Distribution](credit_score_hist.png)
 
-We scored **≈3,400** wallets from the sample. Here’s what we observe across 0–1000 in 100‑point bins:
+We scored **≈3,400** wallets from the sample. With **higher = more responsible**, here’s what we see in 100‑point bins:
 
-- **0–100 (≈2,050 wallets):**  
-  These low scores are dominated by wallets with one or more liquidation calls and little to no successful repays. Likely high‑risk or exploit‑style behavior.
+- **0–100 (≈2 wallets):**  
+  The very lowest scores: wallets that stand out as extreme anomalies—likely automated or exploit addresses with highly unusual activity.
 
-- **100–200 (≈680 wallets):**  
-  Mostly small borrowers who occasionally repay but still show volatile behavior.
+- **100–200 (≈5 wallets):**  
+  A handful of near‑anomalous cases, possibly test or staging wallets with almost no meaningful on‑chain usage.
 
-- **200–300 (≈300 wallets):**  
-  Steady depositors with few or no borrows, showing generally responsible usage.
+- **200–300 (≈10 wallets):**  
+  Small sample of low‑activity wallets—maybe new entrants or one‑off participants.
 
-- **300–400 (≈190 wallets):**  
-  Larger deposit volumes and some borrowing, but solid repay ratios keep them above average.
+- **300–400 (≈30 wallets):**  
+  Emerging users: a few deposits or borrows but still minimal activity and inconsistent repay history.
 
-- **400–500 (≈100 wallets):**  
-  High‑volume users with consistent repay behavior, very few liquidations.
+- **400–500 (≈50 wallets):**  
+  Moderate‑activity wallets: some deposits and borrows with occasional repays, but not yet stable.
 
-- **500–600 (≈50 wallets):**  
-  Top‑tier reliability—large deposits, perfect or near‑perfect repay ratios, no liquidations.
+- **500–600 (≈100 wallets):**  
+  Mid‑tier reliable users: regular deposits and repays, few liquidations.
 
-- **600–700 (≈30 wallets):**  
-  Exemplary users with extended, stable histories and diversified assets.
+- **600–700 (≈190 wallets):**  
+  Above‑average activity: higher deposit volumes, solid repay ratios, almost no liquidations.
 
-- **700–800 (≈10 wallets):**  
-  Elite outliers: extremely large volumes and spotless track records.
+- **700–800 (≈300 wallets):**  
+  Strong contributors: diversified assets and consistent on‑chain behavior, demonstrating responsible usage.
 
-- **800–900 (≈5 wallets):**  
-  Ultra‑prime accounts, often institutional or ultra‑long‑term holders.
+- **800–900 (≈680 wallets):**  
+  Top performers: large combined deposits, flawless repay records, zero liquidations.
 
-- **900–1000 (≈2 wallets):**  
-  Ideal behavior: zero liquidations, flawless repays, and maximum diversity over the longest time frames.
+- **900–1000 (≈2,050 wallets):**  
+  **Elite tier**: the vast majority of “textbook” users—long histories, multiple assets, perfect repay-to-borrow ratios, and no liquidations.
